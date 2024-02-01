@@ -1,0 +1,90 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  padding: 12px 34px;
+  border: none;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  margin-top: 50px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-property: background-color, color, border;
+  transition-property: background-color, color, border;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: blueviolet;
+  border: 2px solid red;
+}
+
+.box {
+  width: 450px;
+  height: 300px;
+  border: 2px solid red;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  -webkit-perspective: 700px;
+          perspective: 700px;
+}
+.box img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.box:hover img {
+  -webkit-transform: skew(180deg);
+          transform: skew(180deg);
+}/*# sourceMappingURL=main.css.map */

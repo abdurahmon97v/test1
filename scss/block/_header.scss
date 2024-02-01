@@ -1,0 +1,44 @@
+.btn {
+  padding: 12px 34px;
+  border: none;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  margin-top: 50px;
+
+  transition-duration: 1s;
+  transition-property: background-color, color, border;
+  transition-timing-function: ease;
+  // transition-delay: 4s;
+
+  // transition: all 0.4s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: blueviolet;
+    border: 2px solid red;
+  }
+}
+
+.box {
+  width: 450px;
+  height: 300px;
+  border: 2px solid red;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  perspective: 700px;
+
+  img {
+    transition: all 0.5s ease;
+  }
+
+  &:hover {
+    img {
+      transform: skew(180deg);
+    }
+  }
+}
